@@ -10,6 +10,12 @@ Data parallelization: ./dat_gol numThreads gridSize numIterations (-d)
 
 Task parallelization: ./task_gol gridSize numIterations (-d)
 
+Where:
+  - numThreads is the number of threads used for the data parallel program
+  - gridSize is the size of the grid (i.e 10 = 10x10)
+  - numIterations is the number of iterations of the board to be computed
+  - if "id" is present, the output of each board is outputted to stdout
+
 # Data Vs Task parallelization
 
 Data approach: Assign n pthreads with an approximately equal number of board squares to compute and update.
