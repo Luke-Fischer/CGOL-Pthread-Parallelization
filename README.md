@@ -4,7 +4,8 @@ Using pthreads to parallelize Conway's Game Of Life
 # Usage
 compile: make
 
-exec:
+execucte:
+
 Data parallelization: ./dat_gol numThreads gridSize numIterations (-d)
 
 Task parallelization: ./task_gol gridSize numIterations (-d)
