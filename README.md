@@ -6,6 +6,7 @@ compile: make
 
 exec:
 Data parallelization: ./dat_gol numThreads gridSize numIterations (-d)
+
 Task parallelization: ./task_gol gridSize numIterations (-d)
 
 # Some of information
